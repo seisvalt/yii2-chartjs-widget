@@ -1,0 +1,52 @@
+{
+    "name": "seisvalt/yii2-chartjs-widget",
+    "description": "ChartJs widget for Yii2.",
+    "type": "yii2-extension",
+    "keywords": [
+        "seisvalt",
+        "yii",
+        "yii2",
+        "yii 2",
+        "extension",
+        "widget",
+        "chartjs"
+    ],
+    "homepage": "http://yiiwheels.com/extension/chartjs-widget",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "seisvalt! Consulting Group",
+            "email": "hola@seisvalt.us",
+            "homepage": "http://seisvalt.us",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/seisvalt/yii2-chartjs-widget/issues",
+        "source": "https://github.com/seisvalt/yii2-chartjs-widget"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.3",
+        "yiisoft/yii2": "^2.0",
+        "npm-asset/chart.js": "^3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "seisvalt\\chartjs\\": "src"
+        }
+    },
+    "extra": {
+        "installer-types": ["bower-asset", "npm-asset"],
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
